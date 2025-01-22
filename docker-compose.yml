@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: docker/backend.dockerfile
+        container_name: cv-app-neubauer
+        ports:
+            - '8080:8080'
+    web:
+        build:
+            context: .
+            dockerfile: docker/frontend.dockerfile
+        container_name: cv-web-neubauer
+        ports:
+            - '4173:80'
