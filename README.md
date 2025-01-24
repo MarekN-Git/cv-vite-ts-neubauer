@@ -7,6 +7,7 @@ It serves as a demonstration of my skills in developing functional, responsive, 
 
 ## Libraries Used
 
+- **React Router DOM**: For navigation and routing.
 - **Material UI & Icons**: For UI components and styling.
 - **TanStack Query**: For data fetching and caching.
 - **JWT Decode**: To decode JSON Web Tokens.
